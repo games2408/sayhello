@@ -21,6 +21,7 @@
 	-->
     <connection>scm:git:https://github.com/games2408/sayhello.git</connection>
     <developerConnection>scm:git:https://github.com/games2408/sayhello.git</developerConnection>
+	<tag>REL</tag>
   </scm>
 
   <dependencies>
@@ -68,6 +69,9 @@
 					<!--<tagBase>
 						file:///D:/subversion_data/repos/my_repo/my-app-example/tags
 					</tagBase>-->
+					<tagBase>
+						file:///D:/Development/tags
+					</tagBase>
 					<preparationGoals>clean install</preparationGoals>
 					<pushChanges>false</pushChanges>
 				</configuration>
