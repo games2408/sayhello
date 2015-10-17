@@ -19,8 +19,8 @@
     <developerConnection>scm:git:file://Development/sayhello</developerConnection>
     <connection>scm:git:file://Development/sayhello</connection>
 	-->
-    <connection>scm:git:git@github.com:games2408/sayhello.git</connection>
-    <developerConnection>git@github.com:games2408/sayhello.git</developerConnection>
+    <connection>scm:git:https://github.com/games2408/sayhello.git</connection>
+    <developerConnection>scm:git:https://github.com/games2408/sayhello.git</developerConnection>
   </scm>
 
   <dependencies>
@@ -36,11 +36,11 @@
   	<pluginManagement>
   		<plugins>
 	  		<plugin>
-		      <groupId>org.apache.maven.plugins</groupId>
-		      <artifactId>maven-deploy-plugin</artifactId>
-		      <configuration>
-		        <skip>false</skip>
-		      </configuration>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+				<skip>false</skip>
+				</configuration>
 		    </plugin>
 		    <plugin>
 		      <groupId>org.sonatype.plugins</groupId>
